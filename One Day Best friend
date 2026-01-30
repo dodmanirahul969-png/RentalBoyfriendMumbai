@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Day Best Friends | Alibag</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff5722, #ff9800);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 45px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 20px 0;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #ff5722;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .service-box {
+      flex: 1;
+      min-width: 200px;
+      background: #fff3e0;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .price {
+      font-size: 25px;
+      font-weight: bold;
+      color: green;
+    }
+
+    img {
+      width: 230px;
+      margin-top: 15px;
+      border-radius: 12px;
+      border: 2px solid #ddd;
+    }
+
+    input, textarea {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      background: #28a745;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #218838;
+    }
+
+    .whatsapp {
+      background: #25D366;
+      margin-top: 15px;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>One Day Best Friends</h1>
+  <p>Social Companion Service in Alibag, Maharashtra</p>
+</header>
+
+<div class="container">
+
+  <!-- About -->
+  <div class="card">
+    <h2>🌸 About Us</h2>
+    <p>
+      One Day Best Friends provides a friendly, safe and respectful companion
+      service for outings like travel, shopping, parties and casual conversations.
+    </p>
+  </div>
+
+  <!-- Services -->
+  <div class="card">
+    <h2>✨ Services Available</h2>
+    <div class="services">
+      <div class="service-box">Travel Buddy</div>
+      <div class="service-box">Party Companion</div>
+      <div class="service-box">Shopping Partner</div>
+      <div class="service-box">Gossip & Friendly Talks</div>
+    </div>
+  </div>
+
+  <!-- Pricing -->
+  <div class="card">
+    <h2>💰 Pricing</h2>
+    <p class="price">₹1000 per hour</p>
+    <p>Minimum booking: 1 hour</p>
+  </div>
+
+  <!-- Payment -->
+  <div class="card">
+    <h2>📌 Payment Method</h2>
+    <p>Scan the QR Code to Pay:</p>
+
+    <!-- QR CODE IMAGE -->
+    <img src="qr.png" alt="UPI QR Code">
+
+    <p><b>UPI ID:</b> dodmanirahul969@okicici</p>
+  </div>
+
+  <!-- Booking Form -->
+  <div class="card">
+    <h2>📩 Booking Request Form</h2>
+
+    <form action="mailto:dodmanirahul969@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Your Name" required>
+
+      <input type="text" name="City" placeholder="Your City" required>
+
+      <input type="number" name="Hours" placeholder="How many hours booking?" required>
+
+      <textarea name="Message" rows="4" placeholder="Write your plan (travel/party/shopping)..."></textarea>
+
+      <button type="submit">Send Booking Request</button>
+    </form>
+
+    <!-- WhatsApp Button -->
+    <br>
+    <button class="whatsapp"
+      onclick="window.location.href='https://wa.me/91XXXXXXXXXX'">
+      📲 Book on WhatsApp
+    </button>
+
+    <p style="font-size:12px;color:gray;">
+      Replace 91XXXXXXXXXX with your WhatsApp number.
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 One Day Best Friends | Safe Social Companion Service</p>
+</footer>
+
+</body>
+</html>
