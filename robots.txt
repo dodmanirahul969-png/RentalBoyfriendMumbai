@@ -1,1 +1,5 @@
 
+User-agent: *
+Allow: /
+
+Sitemap: https://dodmanirahul969-png.github.io/RentalBoyfriendMumbai/sitemap.xml
